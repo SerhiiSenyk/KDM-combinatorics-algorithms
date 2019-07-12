@@ -38,8 +38,8 @@ void partitionNumber(const int n)
 	int d = 0;
 	int l = 0;
 	int sum = 0;
-	int *S = (int*)calloc(n / 2, sizeof(int));
-	int *R = (int*)calloc(n / 2, sizeof(int));
+	int *S = (int*)calloc(n, sizeof(int));
+	int *R = (int*)calloc(n, sizeof(int));
 	*S = n;
 	*R = 1;
 	printPartitionNumber(S, R, d);
